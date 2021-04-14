@@ -11,7 +11,8 @@ html{
     width: 100%;
 }
 body{
-    background-image: linear-gradient(135deg,#75cf9bc2, #a4d8c2d7,#5b9c76d7);
+    background-color: red;
+    /*background-image: linear-gradient(135deg,#75cf9bc2, #a4d8c2d7,#5b9c76d7);*/
     width: 100%;
     height:auto;
 }
