@@ -1,0 +1,239 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    color: white;
+}
+html{
+    height: 100%;
+    width: 100%;
+}
+body{
+    background-image: linear-gradient(135deg,#75cf9bc2, #a4d8c2d7,#5b9c76d7);
+    width: 100%;
+    height:auto;
+}
+body form{
+    background-color: #75cf9bea;
+    width: 400px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    margin: 7% auto;
+    padding: 10px 50px;
+
+}
+body form #tituloPrincipal h1{
+    text-align: center;
+    padding: 14px 0 5px 0;
+}
+body hr{
+    background-color: #5b9c76d7;
+    height: 2px;
+    border: none;
+}
+body form #divNome{
+    text-align: center;
+    padding: 20px 0;
+}
+body form #divSenha{
+    text-align: center;
+}
+body form .inputs{
+    width: 250px;
+    height: 25px;
+    border-radius: 10px;
+    border: 1px solid rgba(134, 236, 156, 0.856);
+    color: black;
+    outline: rgb(4, 5, 2);
+    padding-left: 10px;
+}
+form i{
+    color: white;
+}
+body form #lembrarSenha{
+    padding: 10px 16px 0 0;
+    font-size: 14px;
+    display: flex;
+    flex-direction: row-reverse;
+}
+body form #lembrarSenha label{
+    padding-right: 7px;
+    line-height: 13px;
+}
+body form #lembrarSenha #salvarSenha{
+    padding-right: 10px;
+}
+body form #esqueciSenha a{
+    padding: 14px 16px 0 0;
+    font-size: 13px;
+    font-weight: 600;
+    color:rgba(1, 82, 18, 0.856);
+    display: flex;
+    flex-direction: row-reverse;
+    
+}
+body form #botaoEntrar{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 15px;
+}
+body form #botaoEntrar input{
+    background-color: rgba(134, 236, 156, 0.856);
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    width: 180px;
+    height: 27px;
+    cursor: pointer;
+    transition: .3s;
+}
+body form #botaoEntrar input:hover{
+    background-color: transparent;
+    color:rgba(1, 82, 18, 0.856);
+    font-weight: 700;
+}
+body form #cadastrarNovo p{
+    font-size: 13px;
+    padding: 30px 0 20px 0;
+    text-align: center;
+}
+body form #cadastrarNovo p a{
+    
+    font-weight: 600;
+    color:rgba(1, 82, 18, 0.856);
+}
+footer{
+    background-color: #75cf9bea;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+footer p{
+    font-family: monospace;
+    font-weight: 600;
+    font-size: 14px;
+    color:rgb(16, 43, 21);
+    text-align: center;
+}
+/*Cadastrar o usuário*/
+
+body form .espacoEntreDivs{
+    padding-top: 10px;
+}
+body form #nascUsu .inputDate{
+    width: 130px;
+}
+body form #botaoCad{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 0 20px 0;
+}
+body form #botaoCad input{
+    background-color: rgba(134, 236, 156, 0.856);
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    width: 180px;
+    height: 27px;
+    cursor: pointer;
+    transition: .3s;
+}
+body form #botaoCad input:hover{
+    background-color: transparent;
+    color:rgba(1, 82, 18, 0.856);
+}
+body form #resCad{
+    border-radius: 10px;
+    padding: 5px;
+    text-align: center;
+    color: rgb(68, 65, 65);
+    font-weight: 700;
+    line-height: 25px;
+}
+body form #resCad a{
+    color: rgb(14, 136, 24);
+    text-decoration:rgb(16, 43, 21)
+}
+body form #cadAoLogin{
+    padding: 7% 0;
+}
+body form #cadAoLogin a{
+    background-color: rgba(134, 236, 156, 0.856);
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    width: 180px;
+    height: 27px;
+    cursor: pointer;
+    transition: .3s;
+    padding: 3px;
+    font-size: 13px;
+    color:rgba(1, 82, 18, 0.856);
+}
+
+body form #cadAoLogin a:hover{
+    background-color: transparent;
+    color:rgba(1, 82, 18, 0.856);
+    font-weight: 500;
+}
+/*Esqueceu a senha */
+body form #enviarEmailSenha p{
+    line-height: 23px;
+    padding: 7% 0 5%;
+}
+body form #botaoNovaSenha {
+    display: flex;
+    justify-content: space-around;
+    padding: 15px 0 15px 0;
+
+}
+body form #botaoNovaSenha input{
+    background-color: rgba(134, 236, 156, 0.856);
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    width: 180px;
+    height: 27px;
+    cursor: pointer;
+    transition: .3s;
+    margin-top: 4%;
+    
+}
+body form #botaoNovaSenha input:hover{
+    background-color: transparent;
+    color:rgba(1, 82, 18, 0.856);
+}
+body form #resNovaSenha {
+    border-radius: 10px;
+    padding: 5px;
+    text-align: center;
+    color: rgb(68, 65, 65);
+    font-weight: 700;
+    line-height: 25px;
+}
+body form #novaSenhaAoLogin {
+    padding: 7% 0;
+}
+body form #novaSenhaAoLogin a{
+    background-color: rgba(134, 236, 156, 0.856);
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    width: 180px;
+    height: 27px;
+    cursor: pointer;
+    transition: .3s;
+    padding: 5px;
+    font-size: 13px;
+    color:rgba(1, 82, 18, 0.856);
+}
+
+body form #novaSenhaAoLogin a:hover{
+    background-color: transparent;
+    color:rgba(1, 82, 18, 0.856);
+    font-weight: 500;
+}

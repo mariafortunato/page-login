@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastrar usuário</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://kit.fontawesome.com/e0f6140325.js" crossorigin="anonymous" defer></script>
+    <script src="js/script.js" defer></script>
+</head>
+<body>
+    <form>         
+            <div id="tituloPrincipal">
+                <h1>Cadastrar usuário</h1>
+                <hr>
+            </div>
+            <div id="divNomeUsu" class="espacoEntreDivs">
+                <label>Nome completo:</label>
+                    <input type="text" class="inputs" id="nomeUsu" placeholder="Ana Silva" min="5">
+            </div>
+            <div id="divEmailUsu" class="espacoEntreDivs">
+                <label>E-mail:</label>
+                    <input type="email" id="emailUsu" class="inputs" placeholder="usuario@gmail.com">
+            </div>
+            <div id="divEmailUsu" class="espacoEntreDivs">
+                <label>CPF/RG:</label>
+                    <input type="number" id="cpfRgUsu" class="inputs" placeholder="1234567890">
+            </div>
+            <div id="divSexoUsu" class="espacoEntreDivs">
+                <label>Sexo:</label>
+                <input type="radio" name="sexoUsu" id="" value="fem"  CHECKED>
+                <label>Feminino</label>
+                <input type="radio" name="sexoUsu" id="" value="masc">
+                <label>Masculino</label>
+            </div>
+            <div id="nascUsu" class="espacoEntreDivs">
+                <label>Data de nascimento:</label>
+                    <input type="date" name="" id="" class="inputs inputDate">
+            </div>
+            <div id="botaoCad" class="espacoEntreDivs">
+                <input type="button" value="Cadastrar" onclick="validarUsu()">
+            </div>
+            <div id="resCad"> </div>
+            <div id="cadAoLogin">
+                <a href="index.html">
+                    voltar ao login
+                </a>
+            </div>
+           
+        </div>
+        
+    </form>
+    <footer>
+        <p>Desenvolvido por Maria Fortunato</p>
+    </footer>
+</body>
+</html>
